@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin:0;
+}
+.a1
+{
+    width:100%;
+    height:100vh;
+    background-image: url("sky.jpg");
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    overflow-x: hidden;
+
+    
+}
+
+.a2{
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url("road.jpg");
+    position:absolute;
+    bottom:0px;
+    background-repeat: repeat-x;
+    animation: a2 5s linear infinite;  
+}
+
+@keyframes a2
+{
+    100%
+    {
+        transform:translate(-3400px);
+    }
+}
+
+.a3{
+    height:200px;
+    width:500%;
+    background-image: url("city.png");
+    top:47%;
+    position:absolute ;
+    left:0;
+    display: block;
+    background-repeat:repeat-x ;
+    animation: a3 20s linear infinite;
+}
+
+@keyframes a3
+{
+    100%
+    {
+        transform:translate(-1400px);
+    }
+}
+
+.a4{
+    
+    top:70%;
+    left:35%;
+    position: absolute;
+}
+
+ .a4 img{
+     
+    width:400px;
+    animation: a4 1s linear infinite;
+   
+}
+@keyframes a4{
+    100%
+    {
+        transform: translateY(-1px);
+    }
+
+    0%
+    {
+        transform: translateY(-1px);
+    }
+}
+
+.a5
+
+{
+    top:80%;
+    left:37%;
+    position: absolute;
+}
+.a5 img{
+    width:80px;
+    animation: a5 1s linear infinite;
+
+}
+
+@keyframes a5{
+    100%
+{
+    transform:rotate(360deg);
+}
+}
+
+
+.a6
+{
+    top:80%;
+    left:53%;
+    position:absolute;
+}
+.a6 img{
+    width:80px;
+    animation: a5 1s linear infinite;
+
+}
+
+@keyframes a5{
+    100%
+{
+    transform:rotate(360deg);
+}
+}
+
+
+
+
